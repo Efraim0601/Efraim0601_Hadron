@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      .head-text-color {
+        color: #3fb7c3;
+      }
+      .gray-dark {
+        background-color: #daddee;
+      }
+      .gray-light {
+        background-color: #ebeff8;
+      }
+
+
+      .maDiv {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+
+      .border-dark {
+        border-bottom: #000 solid 5px;
+      }
+      .f-14{
+        font-size: 14px;
+      }
+      .mr{
+        margin-right: 50px;
+      }
+      .card-style{
+        width: 6rem; border: 0px; 
+      }
+      .f-12{
+        font-size: 12px;
+      }
+      .dashed-line-b{
+        border-bottom: #000 dashed 2px;
+      }
+      .blue-line{
+        border: #0502a0 solid 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="row border-dark mt-5">
+        <div class="col">
+          <div class="card" style="width: 8rem; border: 0px; margin-left: 50px">
+            <img
+              class="img-fluid"
+              src="images/hadron_logo.jpg"
+              alt="hadron_logo"
+              title="HADRON SA"
+            />
+          </div>
+        </div>
+        <div class="col mr-50">
+          <p class="head-text-color text-end mb-0">
+            Adresse: 12850 Yaoundé-Cameroun
+          </p>
+          <p class="head-text-color text-end mb-0">
+            Immeuble ARICAM situé au quartier Mvog-mbi, yaounde
+          </p>
+          <p class="head-text-color text-end mb-0">
+            Email: <a href="mailto">info@hadron.tech</a>
+          </p>
+          <p class="head-text-color text-end mb-0">
+            Site: <a href="www.plexuserp.com">www.plexuserp.com</a>
+          </p>
+          <p class="head-text-color text-end mb-0">
+            Tel : (+237) 675 188 416 / 696 161 459
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="mx-auto">
+      <div class="row">
+        <!--left border-->
+        <div class="col-md-2"></div>
+
+        <div class="col-md-2 mt-2 ps-4  d-flex justify-content-end">
+          <div class="card card-style" >
+            <img
+              class="img-fluid"
+              src="images/logo_sig.png"
+              alt="hadron_logo"
+              title="HADRON SA"
+            />
+          </div>
+        </div>
+        <div class="col mt-4 fw-bold fs-5 align-items-center">
+          <p class="text-primary mb-0">DEMANDE D'ACHAT DE LOGEMENT</p>
+          <p class="text-success">SUR FINANCEMENT DU CREDIT FONCIER</p>
+        </div>
+
+        <!--right border-->
+
+        <div class="col-md-2"></div>
+      </div>
+
+      <div class="row mt-3 mb-0">
+        <!--left border-->
+        <div class="col-md-3"></div>
+
+        <div class="col-md-2 text-start m-0 pb-0">
+          <p class="m-0 p-0">Programme Immobilier</p>
+          <p class="m-0 p-0 f-12" > <i>JRM</i> </p>
+        </div>
+
+        <!--dashed points-->
+        <div class="col-md-3 mb-4 dashed-line-b"></div>
+      </div>
+    </section>
+    <div class="row mt mb-0">
+      <!--left border-->
+      <div class="col-md-3"></div>
+
+      <!--corps du tableau-->
+
+      <div
+        class="col-md-2 d-flex flex-column maDiv m-0 pb-0 border border-dark gray-dark fw-semibold"
+      >
+        <p class="p-5">DEMANDEUR</p>
+        <p class="align-bottom p-5">CONJOINT</p>
+      </div>
+
+      <div class="col-md-5 border border-dark p-2">
+        <p class="m-0 p-0">
+          M M<sup>me</sup> M<sup>lle</sup> (1)
+          _________________________________________________________
+        </p>
+        <p class="m-0 p-0">
+          Date et lieu de naissance______________Ville
+          d'origine___________________
+        </p>
+        <p class="m-0 p-0">
+          Situation de famille (1)
+          Marié_____Veuf(ve)_______célibataire__________
+        </p>
+        <p class="m-0 p-0">
+          Profession_________________N°
+          Matricule________________________________
+        </p>
+        <p class="m-0 p-0">
+          Employeur______________________________________________________________
+        </p>
+        <p class="m-0 p-0">
+          Adresse_____________ Email: _________________ Tel:
+          _______________________
+        </p>
+        <p class="m-0 p-0">
+          N° Carte Nationale d'identité au passeport
+          ____________________________
+        </p>
+        <p class="m-0 p-0">
+          N° Compte Bancaire __________________ Banque ________________________
+        </p>
+
+        <p class="m-0 p-0">
+          Nom et Prénoms _______________________________________________________
+        </p>
+        <p class="m-0 p-0">
+          Date et lieu de naissance __________________Ville
+          d'origine______________
+        </p>
+        <p class="m-0 p-0">
+          Profession _________________ N° de Matricule
+          __________________________
+        </p>
+        <p class="m-0 p-0">
+          Nom et Adresse de l'Employeur _______________________________________
+        </p>
+        <p class="m-0 p-0">
+          N° Carte Nationale d'Identité passeport
+          _______________________________
+        </p>
+        <p class="m-0 p-0">
+          N° de compte bancaire____________________Banque_____________________
+        </p>
+      </div>
+
+      <!--right border-->
+      <div class="col-md-2"></div>
+    </div>
+
+    <section>
+      <!--section Enfants légitimes ou à charge-->
+
+      <div class="row mb-0">
+        <!--left border-->
+        <div class="col-md-3"></div>
+
+        <!--corps du tableau-->
+
+        <div
+          class="col-md-2 align-items-center d-flex border border-dark gray-light"
+        >
+          <p class="p-2 text-center fw-semibold">
+            ENFANTS LEGITIMES OU A CHARGE
+          </p>
+        </div>
+
+        <div class="col-md-5 border border-dark">
+          <div class="row text-center align">
+            <div class="col-md-4 border border-dark m-0 p-0 gray-dark">
+              <p>Nom et Prénoms</p>
+            </div>
+            <div class="col border border-dark m-0 p-0 gray-light">
+              <p class="p-1">sexe</p>
+            </div>
+            <div class="col border border-dark m-0 p-0 gray-dark">
+              <p class="p-1">Date de naissance</p>
+            </div>
+            <div class="col-md-4 border border-dark m-0 p-0 gray-light">
+              <p>Niveau scolaire/Profession</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-md-4 border border-dark m-0 p-0"
+              style="height: 70px"
+            >
+              <p></p>
+            </div>
+            <div class="col border border-dark m-0 p-0">
+              <p class="p-1"></p>
+            </div>
+            <div class="col border border-dark m-0 p-0">
+              <p class="p-1"></p>
+            </div>
+            <div class="col-md-4 border border-dark m-0 p-0">
+              <p class="p-1"></p>
+            </div>
+          </div>
+        </div>
+
+        <!--right border-->
+        <div class="col-md-2"></div>
+      </div>
+
+      <!--Revenus du foyer (par mois)-->
+
+      <div class="row mb-0">
+        <!--left border-->
+        <div class="col-md-3"></div>
+
+        <!--corps du tableau-->
+
+        <div
+          class="col-md-2 align-items-center d-flex border border-dark gray-light"
+        >
+          <p class="p-2 text-center fw-semibold">REVENUS DU FOYER (Par mois)</p>
+        </div>
+
+        <div class="col-md-5 border border-dark">
+          <div class="row text-center align">
+            <div class="col-md-3 border border-dark m-0 p-0 gray-dark">
+              <p>Salaire net du demandeur</p>
+            </div>
+            <div class="col-md-3 border border-dark m-0 p-0 gray-light">
+              <p class="p-1">Salaire net du conjoint</p>
+            </div>
+            <div class="col border border-dark m-0 p-0 gray-dark">
+              <p class="p-1">Autres revenus à préciser</p>
+            </div>
+            <div class="col-md-4 border border-dark m-0 p-0 gray-light">
+              <p>Total</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-md-3 border border-dark m-0 p-0"
+              style="height: 70px"
+            >
+              <p></p>
+            </div>
+            <div class="col-md-3 border border-dark m-0 p-0">
+              <p class="p-1"></p>
+            </div>
+            <div class="col border border-dark m-0 p-0">
+              <p class="p-1"></p>
+            </div>
+            <div class="col-md-4 border border-dark m-0 p-0">
+              <p class="p-1"></p>
+            </div>
+          </div>
+        </div>
+
+        <!--right border-->
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+
+    <section>
+      <!--revenu financier actuel-->
+      <div class="row mb-0">
+        <!--left border-->
+        <div class="col-md-3"></div>
+
+        <!--corps du tableau-->
+
+        <div
+          class="col text-center justify-content-center border-dark align-items-center d-flex gray-light"
+          
+        >
+          <p class="text-center p-2 fw-semibold">
+            VOS REVENUS FINANCIERS ACTUELS
+          </p>
+        </div>
+
+        <!--right border-->
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+
+    <!--Banque.....montant.....-->
+
+    <section>
+      <div class="row mb-0">
+        <!--left border-->
+        <div class="col-md-3"></div>
+
+        <!--corps du tableau-->
+
+        <div
+          class="col text-center border border-dark align-items-center justify-content-center d-flex"
+          
+        >
+          <p class="text-center pb-0 pt-3 fw-semibold">
+            Banque ______________________ Montant mensuel_____________________
+            Jusqu'en ________________
+          </p>
+        </div>
+
+        <!--right border-->
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row mb-0">
+        <!--left border-->
+        <div class="col-md-3"></div>
+
+        <!--corps du tableau-->
+
+        <div class="col row">
+          <div
+            class="col-md-6 pb-3 text-center border border-dark ps-0 pe-0 justify-content-center"
+          >
+            <p class="pt-2 fw-semibold gray-light">ENGAGEMENT DU CLIENT</p>
+            <p class="text-start p-0 m-0 ps-2">
+              Type de logement ______________________________
+            </p>
+            <p class="text-start p-0 m-0 ps-2">
+              Prix de vente ___________________________________
+            </p>
+            <p class="text-start p-0 m-0 ps-2">
+              Frais de Notaire ________________________________
+            </p>
+            <p class="text-start p-0 m-0 ps-2">
+              Frais de dossier technique _____________________
+            </p>
+          </div>
+
+          <div
+            class="col-md-6 text-center border border-dark ps-0 pe-0"
+            style="justify-content: center"
+          >
+            <p class="pt-2 fw-semibold gray-light">
+              DECISION DU COMITE D'ATTRIBUTION
+            </p>
+            <p class="text-start p-0 m-0 ps-2">
+              Favorable ______________________________________
+            </p>
+            <p class="text-start p-0 m-0 ps-2">
+              N° de logement attribué _______________________
+            </p>
+            <p class="text-start p-0 m-0 ps-2">
+              Défavorable ____________________________________
+            </p>
+          </div>
+        </div>
+
+        <!--right border-->
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="row mb-0">
+        <!--left border-->
+        <div class="col-md-3"></div>
+
+        <!--corps du tableau-->
+
+        <div class="col row">
+          <div
+            class="col-md-6 pb-3 text-start border border-dark ps-0 pe-0"
+          >
+            <p class="pt-2 ps-3 fw-bold "> <u>Pièces à joindre</u> </p>
+            <ul>
+              <li>Photocopie de la pièce d'identité en cours de validité</li>
+              <li>Extrait d'acte de naissance (demandeur et conjoint)</li>
+              <li>Extrait d'acte de mariage</li>
+              <li>Grosse du jugement de divorce</li>
+              <li>Extrait d'acte de décès du conjoint</li>
+              <li>Certificat de célibat</li>
+              <li>Attestation de travail</li>
+            </ul>
+          </div>
+
+          <div
+            class="col-md-6 text-star pt-5 border border-dark ps-0 pe-0"
+          >
+            <ul>
+              <li>Trois bulletins de salaire du demandeur et du conjoint (Eventuellement)</li>
+              <li>Dossier fiscal (pour non salariés)</li>
+              <li>Justification d'appartenance au régime du SMIC ou son équivalent (pour la diaspora)</li>
+              <li>Reçu frais non remboursables de dossier 20 000 FCFA payable à la SIC</li>
+              <li>Engagement légalisé sur l'honneur d'occupation personnelle du logement pendant une durée minimale de cinq ans</li>
+            </ul>
+          </div>
+        </div>
+
+        <!--right border-->
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+    
+
+    <section>
+      <div class="row mb-0">
+        <!--left border-->
+        <div class="col-md-3"></div>
+
+        
+
+        <div class="col">
+          <p class="text-center f-12"> Je certifie exact les informations contenues sur la présente demande et avoir pris connaissance du réglement de copropriété</p>
+          <div class="row  ">
+            <div class="col">
+              <p class="text-start p-0 m-0">
+                __________________Le__________________
+              </p>
+            </div>
+            <div class="col">
+              <p class="text-end p-0 m-0">
+                SIGNATURE DU DEMANDEUR
+              </p>
+            </div>
+          </div>
+          <p style="font-size: 10px;">(1) Rayer les mentions inutiles</p>
+        </div>
+          
+
+        <!--right border-->
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row mb-0">
+        <!--left border-->
+        <div class="col-md-3"></div>
+
+        
+        <div class="col">
+          <p class="text-center" style="font-size: 12px;">SIC YAOUNDE B.P. 357 Tél: 22.23.34.11/22.22.92.49.DOUALA.B.P.924 Tél:33.42.06.05 GAROUA BP.1071 Tél:22.27.13.93</p>
+        </div>
+          
+
+        <!--right border-->
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!--barre de  séparation-->
+    <div class=" container ">
+      <div class="row">
+        <div class="col-md-3 blue-line"></div>
+        <div class="col"></div>
+        <div class="col-md-3 blue-line" ></div>
+      </div>
+    </div>
+
+
+
+    <section>
+      <div class="row mb-0">
+        <!--left border-->
+        <div class="col-md-3"></div>
+
+        
+        <div class="col">
+          <p class="text-center fw-bold f-14" >RC N° : RC/YAO/2016/B/452 - NIU : MO71612506423T - Compte ECOBANK : 10029 26010 30765000025 81</p>
+        </div>
+          
+
+        <!--right border-->
+        <div class="col-md-2"></div>
+      </div>
+    </section>
+
+
+    <script
+      src="assets/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

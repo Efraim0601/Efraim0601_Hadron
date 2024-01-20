@@ -1,0 +1,38 @@
+.head-text-color {
+    color: #3fb7c3;
+  }
+  .gray-dark {
+    background-color: #daddee;
+  }
+  .gray-light {
+    background-color: #ebeff8;
+  }
+
+
+  .maDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .border-dark {
+    border-bottom: #000 solid 5px;
+  }
+  .f-14{
+    font-size: 14px;
+  }
+  .mr{
+    margin-right: 50px;
+  }
+  .card-style{
+    width: 6rem; border: 0px; 
+  }
+  .f-12{
+    font-size: 12px;
+  }
+  .dashed-line-b{
+    border-bottom: #000 dashed 2px;
+  }
+  .blue-line{
+    border: #0502a0 solid 4px;
+  }
